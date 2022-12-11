@@ -1,3 +1,12 @@
+:root {
+  --_accent: 172, 67%, 45%;
+  --neutral-1: 183, 100%, 15%;
+  --neutral-2: 186, 14%, 43%;
+  --neutral-3: 184, 14%, 56%;
+  --neutral-4: 185, 41%, 84%;
+  --neutral-5: 189, 41%, 97%;
+  --neutral-6: 0, 0%, 100%;
+}
 *,
 *::before,
 *::after {
@@ -13,6 +22,8 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.5rem;
 }
 img,
 picture,
