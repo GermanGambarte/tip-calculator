@@ -1,7 +1,14 @@
+import { Display } from './components/Display'
+import { Form } from './components/Form'
+import logo from './assets/logo.svg'
 const App = () => {
   return (
-    <div>
-      <h1>Tip Calculator</h1>
+    <div className="wrapper">
+      <img alt="Splitter Logo" src={logo} />
+      <div className="container">
+        <Form />
+        <Display />
+      </div>
     </div>
   )
 }
